@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { useForm } from "react-hook-form";
 import { contentApi } from "../api/services";
-import { saveWithImage } from "../api/axiosClient";
+import { saveWithImage } from "../api/upload";
 import Loader from "../components/Loader";
 import ImageUploadField from "../components/ImageUploadField";
 
